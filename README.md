@@ -1,13 +1,32 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<title>Latihan Heading</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Website</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Tautan ke file CSS eksternal -->
 </head>
-<body>
-	<h1>Heading 1</h1>
-	<h2 align="center">Heading 2</h2>
-	<h3 align="right">Heading 3</h3>
-	<h4 align=“left”>Heading 4</h4>
-	<h5>Heading 5</h5>
-	<h6>Heading 6</h6>
-</body>
-</html>
+<main>
+        <section id="featured-products">
+            <h2>Featured Products</h2>
+            <!-- Daftar produk-produk unggulan -->
+            <div class="product">
+                <img src="product1.jpg" alt="Product 1">
+                <h3>Product 1</h3>
+                <p>Description of Product 1</p>
+                <span>$100.00</span>
+                <button>Add to Cart</button>
+            </div>
+            <!-- Produk lainnya -->
+            <!-- ... -->
+        </section>
+        <section id="new-arrivals">
+            <h2>New Arrivals</h2>
+            <!-- Daftar produk-produk terbaru -->
+            <div class="product">
+                <!-- ... -->
+            </div>
+            <!-- Produk lainnya -->
+            <!-- ... -->
+        </section>
+    </main>
